@@ -1,0 +1,27 @@
+.undrlin:hover {
+    color: #399 !important;
+    text-decoration: underline !important;
+    cursor: pointer;
+}
+
+.undr:hover {
+    color: #399 !important;
+    cursor: pointer;
+}
+
+.fsz{
+    font-size: 0.8rem !important;
+    text-align: end !important;
+}
+
+@media (max-width: 780px) {
+
+    .txcn{
+        text-align: center !important;
+    }
+
+    .fsz{
+        text-align: center !important;
+    } 
+
+}

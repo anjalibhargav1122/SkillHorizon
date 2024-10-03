@@ -1,0 +1,87 @@
+.bg {
+    background: #00112c;
+   
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    position: relative !important;
+}
+
+.btbg:hover {
+    background-color: #f7eeeefd !important;
+}
+
+.bor {
+    border-bottom: 1px solid rgba(178, 176, 176, 0.909);
+}
+
+.mar {
+    margin-top: 1.5rem !important;
+}
+
+.box {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .1), 0 5px 10px 0 rgba(0, 0, 0, .1);
+}
+
+.tx {
+    color: #399;
+}
+
+.wbtn {
+    width: 91% !important;
+}
+
+.wdcd {
+    width: 24rem !important;
+    position: absolute !important;
+ top: 17%;
+ left: 64%;
+}
+
+.clrbor {
+    width: 1%;
+    height: 1vh;
+    border-radius: 50%;
+    background-color: #399;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 11px;
+    cursor: pointer;
+}
+
+.dot {
+    width: 0.7% !important;
+    height: 0.7vh;
+    border-radius: 50%;
+    background-color: black;
+    padding: 5px;
+    cursor: pointer;
+}
+
+@media (max-width: 780px) {
+
+    .bor {
+        border-bottom: 0px solid;
+    }
+
+    .mar {
+        margin-top: 0px !important;
+    }
+
+    .wdcd {
+        width: 100% !important;
+           top: 14% !important;
+            left: 0% !important;
+         
+          
+    }
+
+    .mpt{
+        margin-top: 51vh !important;
+    }
+
+}

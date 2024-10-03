@@ -1,0 +1,13 @@
+.wid {
+    width: 13% !important;
+}
+
+@media (max-width: 780px) {
+
+   
+
+    .wid {
+        width: 36% !important;
+    }
+
+}
